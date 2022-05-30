@@ -1,0 +1,159 @@
+/*!
+Theme Name: awakening_hosting
+Theme URI: https://awakening-hosting.com/
+Author: Yeasir Muhammad Pervej
+Author URI: https://portfolio.pervej.com/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: awakening_hosting
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+awakening_hosting is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+.pricing-box .pricing-body .hosting-price span.woocommerce-Price-currencySymbol {
+    display: none;
+}
+.pricing-box .pricing-body .hosting-price span.woocommerce-Price-amount{
+    font-size: inherit;
+}
+.comment-form-author input,.comment-form-email input,.comment-form-url input {
+    width: 100%;
+    background-color: #1f2033;
+    border-color: #9e00d4;
+}
+.currency-fix form{
+    width: auto;
+    display: inline-block;
+    background-image: -webkit-linear-gradient(180deg, #a000d5 0%, #131aa4 100%);
+    background-image: -ms-linear-gradient(180deg, #a000d5 0%, #131aa4 100%);
+    border-radius: 35px;
+    left: 0;
+    padding: 4px;
+    overflow: hidden;
+}
+
+.currency-fix form select{
+    padding: 9px;
+    border-radius: 35px;
+}
+
+.logo-lan > div.text-right>div,.logo-lan > div.text-right>form{
+    display: inline-block;
+    margin-left: 10px;
+}
+.logo-lan > div.text-right form{
+    background-image: linear-gradient(to right top, #2b15ac, #4314b3, #5711bb, #6a0dc1, #7c07c8);
+    border-radius: 35px;
+    z-index: -1;
+}
+
+
+.logo-lan > div.text-right form select{
+    background: #1f2033;
+    border: 0;
+    border-radius: 35px;
+    color: #fff;
+    padding: 2px 32px;
+    margin: 2px;
+    outline: none;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+}
+
+.logo-lan > div.text-right form:after {
+    content: '';
+    vertical-align: middle;
+    display: inline-block;
+    border: .35em solid transparent;
+    border-top: .5em solid;
+    position: absolute;
+    right: 25px;
+    top: calc(50% - .175em);
+}
+
+.logo-lan .wpml-ls-legacy-dropdown .wpml-ls-sub-menu {
+    background: #1f2033;
+}
+
+.page .epkb-doc-search-container,.page #epkb-content-container{
+    background-color: inherit !important;
+    color: inherit !important;
+}
+.page .epkb-doc-search-container {
+    border-bottom: 2px solid #3b3c57 !important;
+}
+.page .epkb-doc-search-container h2,.page .epkb-doc-search-container button{
+    color: inherit !important;
+}
+.page .epkb-doc-search-container button {
+    background-image: -moz-linear-gradient(0deg, #a000d5 0%, #131aa4 100%) !important;
+    background-image: -webkit-linear-gradient(0deg, #a000d5 0%, #131aa4 100%) !important;
+    background-image: -ms-linear-gradient(0deg, #a000d5 0%, #131aa4 100%) !important;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.2) !important;
+}
+.page #epkb-content-container section.epkb-top-category-box {
+    text-align: center !important;
+    background: #fff !important;
+    padding-bottom: 30px !important;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.3) !important;
+    position: relative !important;
+    border-style: none !important;
+}
+.page #epkb-content-container section.epkb-top-category-box .section-head{
+    background-image: -moz-linear-gradient(-90deg, #a000d5 0%, #131aa4 100%);
+    background-image: -webkit-linear-gradient(-90deg, #a000d5 0%, #131aa4 100%);
+    background-image: -ms-linear-gradient(-90deg, #a000d5 0%, #131aa4 100%);
+    padding: 30px 5px;
+}
+.page #epkb-content-container section.epkb-top-category-box .section-head .epkb-cat-name{
+    color: #ffffff !important;
+}
+.eckb-breadcrumb-link a span{
+    color:#ffffff !important
+}
+.bootstrap-iso #frm_wpsc_sign_in .form-control{
+    margin: 10px 0 !important;
+}
+.page .bootstrap-iso #wpsc_tickets_container{
+    background-color: inherit !important;
+    border: none !important;
+}
+.page .bootstrap-iso #wpsc_tickets_container .form-signin-heading,.row.wpsc_tl_action_bar #wpsc_login_link,.row.wpsc_tl_action_bar #wpsc_load_list_new_ticket_btn{
+    color: #fff !important;
+    text-align: center;
+}
+#wpsc_sign_in_btn,.row.wpsc_tl_action_bar #wpsc_login_link,.row.wpsc_tl_action_bar #wpsc_load_list_new_ticket_btn {
+    background-image: -moz-linear-gradient(0deg, #a000d5 0%, #131aa4 100%);
+    background-image: -webkit-linear-gradient(0deg, #a000d5 0%, #131aa4 100%);
+    background-image: -ms-linear-gradient(0deg, #a000d5 0%, #131aa4 100%);
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.bootstrap-iso .btn:hover, .bootstrap-iso .btn:focus, .bootstrap-iso .btn.focus {
+    color: #fff !important;
+    text-decoration: none;
+}
+.row.wpsc_tl_action_bar {
+    background-image: -moz-linear-gradient(0deg, rgba(160, 0, 213, 0.45) 0%, rgba(19, 26, 164, 0.45) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgba(160, 0, 213, 0.45) 0%, rgba(19, 26, 164, 0.45) 100%);
+    background-image: -ms-linear-gradient(0deg, rgba(160, 0, 213, 0.45) 0%, rgba(19, 26, 164, 0.45) 100%);
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.2);
+}
+#wpsc_tickets_container .btn:hover::before,#wpsc_popup_footer .btn:hover::before{
+    display: none !important;
+}
+#wpsc_popup_body form{
+    width: 100% !important;
+}
+.bootstrap-iso .btn:before{
+    left: 0;
+}
